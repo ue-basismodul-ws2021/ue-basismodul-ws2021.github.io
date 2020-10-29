@@ -19,3 +19,7 @@ Die Materialien von Herrn Prof. Schulz befinden sich [hier](https://www.cis.uni-
 
 - Die Hausaufgaben sind freiwillig und werden nicht benotet, bei Abgabe aber korrigiert.
 - Abgabe der Hausaufgaben als .py-Datei(en) per Email an: till.amelung@campus.lmu.de
+
+| Date | slides | homework | materials |
+|-----------------------------|:--------------------------------:|:------:|:-------------------------------------------------------------------|
+| Oct. 16, 2018 | [Course Intro](01_intro.pdf); [Python Basics](01_python_recap.pdf); [Python Tests](01_unit_testing.pdf) |  |  |
