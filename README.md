@@ -22,4 +22,4 @@ Die Materialien von Herrn Prof. Schulz befinden sich [hier](https://www.cis.uni-
 
 | Date | slides | homework | materials |
 |-----------------------------|:--------------------------------:|:------:|:-------------------------------------------------------------------|
-| Oct. 16, 2018 | [Course Intro](01_intro.pdf); [Python Basics](01_python_recap.pdf); [Python Tests](01_unit_testing.pdf) |  |  |
+| 05.11.2020 |  |  |  |
