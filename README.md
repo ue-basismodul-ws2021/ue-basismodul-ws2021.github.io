@@ -22,7 +22,7 @@ Die Materialien von Herrn Prof. Schulz befinden sich [hier](https://www.cis.uni-
 
 ## Leistungsnachweis
 
--Am Ende des Semesters ist ein Abschlussprojekt (Programmieraufgabe) abzugeben.
+- Am Ende des Semesters ist ein Abschlussprojekt (Programmieraufgabe) abzugeben.
 
 | Date | slides | homework | materials |
 |-----------------------------|:--------------------------------:|:------:|:-------------------------------------------------------------------|
