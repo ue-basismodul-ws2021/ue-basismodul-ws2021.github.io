@@ -20,6 +20,10 @@ Die Materialien von Herrn Prof. Schulz befinden sich [hier](https://www.cis.uni-
 - Die Hausaufgaben sind freiwillig und werden nicht benotet, bei Abgabe aber korrigiert.
 - Abgabe der Hausaufgaben als .py-Datei(en) per Email an: till.amelung@campus.lmu.de
 
+## Leistungsnachweis
+
+-Am Ende des Semesters ist ein Abschlussprojekt (Programmieraufgabe) abzugeben.
+
 | Date | slides | homework | materials |
 |-----------------------------|:--------------------------------:|:------:|:-------------------------------------------------------------------|
 | 05.11.2020 |  |  |  |
