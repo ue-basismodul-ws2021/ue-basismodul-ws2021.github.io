@@ -1,10 +1,10 @@
 # Basismodul CL, Übung WS 20/21
 
-*Repository der Übung zum Computerlinguistik Masterkurs P1 "Basismodul Computerlinguistik"*
+*Übung zum Computerlinguistik Masterkurs P1 "Basismodul Computerlinguistik"*
 
 ## Inhalt
 
-In diesem Repository finden sich nach Sitzung sortiert die Materialien und Foliensätze der Übung.
+Auf dieser Seite finden sich nach Sitzung sortiert die Materialien und Foliensätze der Übung.
 
 Die Materialien von Herrn Prof. Schulz befinden sich [hier](https://www.cis.uni-muenchen.de/people/Schulz/pw/).
 
