@@ -8,6 +8,11 @@ Auf dieser Seite finden sich nach Sitzung sortiert die Materialien und Foliensä
 
 Die Materialien von Herrn Prof. Schulz befinden sich [hier](https://www.cis.uni-muenchen.de/people/Schulz/pw/).
 
+## Format der Sitzungen
+
+Die Übung findet immer donnerstags, 14:15 - 15:45 per Zoom statt.
+Teilnehmer, die sich nachträglich zur Veranstaltung anmelden und einen Link zum Meeting benötigen, melden sich bitte per Mail.
+
 ## Software
 
 - Die Programmieraufgaben werden in [Python3 (3.6+)](https://www.python.org/) gestellt.
