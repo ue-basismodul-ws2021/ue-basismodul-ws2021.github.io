@@ -31,4 +31,4 @@ Teilnehmer, die sich nachträglich zur Veranstaltung anmelden und einen Link zum
 
 | Date | slides | homework | materials |
 |-----------------------------|:--------------------------------:|:------:|:-------------------------------------------------------------------|
-| 05.11.2020 | [Organisation](1_Einführung.ipynb) [Python - mathematische Konzepte](1_Python_Mathematik.ipynb) |  |  |
+| 05.11.2020 | [Organisation](1_Einführung.ipynb) | [Python - mathematische Konzepte](1_Python_Mathematik.ipynb) |  |  |
