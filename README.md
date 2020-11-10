@@ -17,8 +17,8 @@ Teilnehmer, die sich nachträglich zur Veranstaltung anmelden und einen Link zum
 
 - Die Programmieraufgaben werden in [Python3 (3.6+)](https://www.python.org/) gestellt.
 - Die Python-Dokumentation findet sich [hier](https://docs.python.org/3.6/).
-- [Jupyter-Notebooks](https://jupyter.org/) stellen die Basis für die Folien dar, die in der Übung verwendet werden und in diesem Repository verfügbar gemacht sind.
-- Um die Notebooks als Präsentation anzuzeigen wird [RISE](https://rise.readthedocs.io/en/maint-5.5/) verwendet. RISE wird **nicht** benötigt, um die Notebooks  öffnen zu können.
+- [Jupyter-Notebooks](https://jupyter.org/) stellen die Basis für die Folien dar, die in der Übung verwendet und auf dieser Seite als html zur Verfügung gestellt werden.
+- Um die Notebooks als Präsentation anzuzeigen wird [RISE](https://rise.readthedocs.io/en/maint-5.5/) verwendet.
 
 ## Hausaufgaben
 
@@ -31,4 +31,4 @@ Teilnehmer, die sich nachträglich zur Veranstaltung anmelden und einen Link zum
 
 | Date | slides | homework | materials |
 |-----------------------------|:--------------------------------:|:------:|:-------------------------------------------------------------------|
-| 05.11.2020 | [Organisation](1_Einführung.ipynb) / [Python - mathematische Konzepte](1_Python_Mathematik.ipynb) |  |  |
+| 05.11.2020 | [Organisation](1_Einführung.html) / [Python - mathematische Konzepte](1_Python_Mathematik.html) |  |  |
