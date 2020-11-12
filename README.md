@@ -32,4 +32,4 @@ Teilnehmer, die sich nachträglich zur Veranstaltung anmelden und einen Link zum
 | Date | slides | homework | materials |
 |-----------------------------|:--------------------------------:|:------:|:-------------------------------------------------------------------|
 | 05.11.2020 | [Organisation](1_Einführung.html) / [Python - mathematische Konzepte](1_Python_Mathematik.html) |  |  |
-| 05.11.2020 | [Coding Style in Python](2_Coding_Style.html) |  | [math. Grundbegriffe Whiteboard](Grundbegriffe_Whiteboard.png) |
+| 12.11.2020 | [Coding Style in Python](2_Coding_Style.html) |  | [math. Grundbegriffe Whiteboard](Grundbegriffe_Whiteboard.png) |
