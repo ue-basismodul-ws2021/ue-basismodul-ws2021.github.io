@@ -31,6 +31,6 @@ Teilnehmer, die sich nachträglich zur Veranstaltung anmelden und einen Link zum
 
 | Date | slides | homework | materials |
 |-----------------------------|:--------------------------------:|:------:|:-------------------------------------------------------------------|
-| 05.11.2020 | [Organisation](https://htmlpreview.github.io/?https://github.com/ue-basismodul-ws2021/ue-basismodul-ws2021.github.io/blob/main/1_Einf%C3%BChrung.html) / [Python - mathematische Konzepte](https://htmlpreview.github.io/?https://github.com/ue-basismodul-ws2021/ue-basismodul-ws2021.github.io/blob/main/1_Python_Mathematik.html) |  |  |
-| 12.11.2020 | [Coding Style in Python](https://htmlpreview.github.io/?https://github.com/ue-basismodul-ws2021/ue-basismodul-ws2021.github.io/blob/main/2_Coding_Style.html) |  | [math. Grundbegriffe Whiteboard](Grundbegriffe_Whiteboard.png) |
-| 19.11.2020 | | [DEA Python](https://htmlpreview.github.io/?https://github.com/ue-basismodul-ws2021/ue-basismodul-ws2021.github.io/blob/main/Hausaufgabe_3.html) | [Minimalisierung Whiteboard](whiteboard_sitzung3.png) |
+| 05.11.2020 | [Organisation](https://nbviewer.jupyter.org/github/ue-basismodul-ws2021/ue-basismodul-ws2021.github.io/blob/main/1_Einf%C3%BChrung.html) / [Python - mathematische Konzepte](https://nbviewer.jupyter.org/github/ue-basismodul-ws2021/ue-basismodul-ws2021.github.io/blob/main/1_Python_Mathematik.html) |  |  |
+| 12.11.2020 | [Coding Style in Python](https://nbviewer.jupyter.org/github/ue-basismodul-ws2021/ue-basismodul-ws2021.github.io/blob/main/2_Coding_Style.html) |  | [math. Grundbegriffe Whiteboard](Grundbegriffe_Whiteboard.png) |
+| 19.11.2020 | | [DEA Python](https://nbviewer.jupyter.org/github/ue-basismodul-ws2021/ue-basismodul-ws2021.github.io/blob/main/Hausaufgabe_3.html) | [Minimalisierung Whiteboard](whiteboard_sitzung3.png) |
