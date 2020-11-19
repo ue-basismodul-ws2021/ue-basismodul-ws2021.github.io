@@ -17,7 +17,7 @@ Teilnehmer, die sich nachträglich zur Veranstaltung anmelden und einen Link zum
 
 - Die Programmieraufgaben werden in [Python3 (3.6+)](https://www.python.org/) gestellt.
 - Die Python-Dokumentation findet sich [hier](https://docs.python.org/3.6/).
-- [Jupyter-Notebooks](https://jupyter.org/) stellen die Basis für die Folien dar, die in der Übung verwendet und auf dieser Seite als .html zur Verfügung gestellt werden. **Die html.-Dateien werden von github nicht automatisch gerendert**. Stattdessen bitte einfach herunterladen und im Browser öffnen.
+- [Jupyter-Notebooks](https://jupyter.org/) stellen die Basis für die Folien dar, die in der Übung verwendet und auf dieser Seite als .html zur Verfügung gestellt werden.
 - Um die Notebooks als Präsentation anzuzeigen wird [RISE](https://rise.readthedocs.io/en/maint-5.5/) verwendet.
 
 ## Hausaufgaben
