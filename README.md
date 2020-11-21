@@ -23,7 +23,7 @@ Teilnehmer, die sich nachträglich zur Veranstaltung anmelden und einen Link zum
 ## Hausaufgaben
 
 - Die Hausaufgaben sind freiwillig und werden nicht benotet, bei Abgabe aber korrigiert.
-- Abgabe der Hausaufgaben als .py-Datei(en) per Email an: till.amelung@campus.lmu.de
+- Abgabe der Hausaufgaben als .zip-Datei (wichtig!) per Email an: till.amelung@campus.lmu.de
 
 ## Leistungsnachweis
 
