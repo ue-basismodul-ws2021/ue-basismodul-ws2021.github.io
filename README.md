@@ -27,7 +27,8 @@ Teilnehmer, die sich nachträglich zur Veranstaltung anmelden und einen Link zum
 
 ## Leistungsnachweis
 
-- Am Ende des Semesters ist ein Abschlussprojekt (Programmieraufgabe) einzureichen.\
+- Am Ende des Semesters ist ein Abschlussprojekt (Programmieraufgabe) einzureichen.  
+  
 
 | Date | slides | homework | materials |
 |-----------------------------|:--------------------------------:|:------:|:-------------------------------------------------------------------|
