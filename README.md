@@ -27,9 +27,8 @@ Teilnehmer, die sich nachträglich zur Veranstaltung anmelden und einen Link zum
 
 ## Leistungsnachweis
 
-- Am Ende des Semesters ist ein Abschlussprojekt (Programmieraufgabe) einzureichen.  
-  
-
+- Am Ende des Semesters ist ein Abschlussprojekt (Programmieraufgabe) einzureichen. <br />
+<br />
 | Date | slides | homework | materials |
 |-----------------------------|:--------------------------------:|:------:|:-------------------------------------------------------------------|
 | 05.11.2020 | [Organisation](https://nbviewer.jupyter.org/github/ue-basismodul-ws2021/ue-basismodul-ws2021.github.io/blob/main/1_Einf%C3%BChrung.html) \ [Python - mathematische Konzepte](https://nbviewer.jupyter.org/github/ue-basismodul-ws2021/ue-basismodul-ws2021.github.io/blob/main/1_Python_Mathematik.html) |  |  |
