@@ -36,4 +36,5 @@ Teilnehmer, die sich nachträglich zur Veranstaltung anmelden und einen Link zum
 | 12.11.2020 | [Coding Style in Python](https://nbviewer.jupyter.org/github/ue-basismodul-ws2021/ue-basismodul-ws2021.github.io/blob/main/2_Coding_Style.html) |  | [math. Grundbegriffe Whiteboard](Grundbegriffe_Whiteboard.png) |
 | 19.11.2020 | | [DEA Python](https://nbviewer.jupyter.org/github/ue-basismodul-ws2021/ue-basismodul-ws2021.github.io/blob/main/Hausaufgabe_3.html) \ [Musterlösung](dea.py) | [Minimalisierung Whiteboard](whiteboard_sitzung3.png) |
 | 26.11.2020 | [Default-Argumente / None-Objekt](https://htmlpreview.github.io/?https://github.com/ue-basismodul-ws2021/ue-basismodul-ws2021.github.io/blob/main/Sitzung_4.html) | [Daciuk-Implementierung](https://htmlpreview.github.io/?https://github.com/ue-basismodul-ws2021/ue-basismodul-ws2021.github.io/blob/main/Hausaufgabe_Daciuk.html) | [Daciuk Whiteboard](whiteboard_sitzung_4.png) |  
-| 03.12.2020 | | | [Hashing Whiteboard](whiteboard_sitzung_5.png) |
+| 03.12.2020 | | | [Hashing Whiteboard](whiteboard_sitzung_5.png) |  
+| 10.12.2020 | | [Daciuk-Tipps](daciuk.py) \ [Daciuk-Tipps OOP](daciuk_oop.py) | [Tarjan Tabellen Whiteboard](whiteboard_6.png) |
