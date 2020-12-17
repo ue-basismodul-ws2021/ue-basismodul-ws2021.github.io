@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>projekt_de</title>
+<title>argparse_pickle</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13082,8 +13082,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Basismodul-Computerlinguistik">Basismodul Computerlinguistik<a class="anchor-link" href="#Basismodul-Computerlinguistik">&#182;</a></h1><h3 id="&#220;bung">&#220;bung<a class="anchor-link" href="#&#220;bung">&#182;</a></h3><h2 id="Abschlussprojekt">Abschlussprojekt<a class="anchor-link" href="#Abschlussprojekt">&#182;</a></h2><p>Abgabe bis einschließlich <strong>20.01.2021</strong> in der unter Abschnitt 2 angegebenen Form an<br>
-till.amelung@campus.lmu.de</p>
+<h1 id="&#220;bung-Basismodul-Computerlinguistik">&#220;bung Basismodul Computerlinguistik<a class="anchor-link" href="#&#220;bung-Basismodul-Computerlinguistik">&#182;</a></h1><p>Sitzung 7 - 17.12.2020</p>
 
 </div>
 </div>
@@ -13091,40 +13090,89 @@ till.amelung@campus.lmu.de</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="1.-Aufgabenstellung">1. Aufgabenstellung<a class="anchor-link" href="#1.-Aufgabenstellung">&#182;</a></h3><p>In diesem Projekt wird der Daciuk-Algorithmus zur Konstruktion eines Minimalen Lexikonautomaten mit verschiedenen Erweiterungen implementiert.</p>
-<h4 id="1.2-Organisatorische-und-technische-Hinweise">1.2 Organisatorische und technische Hinweise<a class="anchor-link" href="#1.2-Organisatorische-und-technische-Hinweise">&#182;</a></h4><p>Die Aufgabe soll vorzugsweise in <strong>Zweiergruppen</strong> bearbeitet werden.<br>
-<strong>Registrierung</strong>: Jede Gruppe schickt eine Email mit den Namen der Gruppenteilnehmer und deren Matrikelnummern an die oben genannte Email-Adresse.</p>
-<p>Akzeptiert werden Programme, die unter Python 3.8 lauffähig sind. Das bedeutet für die Python3-Version, mit der <strong>entwickelt</strong> wird: Version &lt;= 3.8</p>
-<p>Es darf die komplette Built-In Library verwendet werden, jedoch mit Ausnahme von graphviz keine externen (third-party) Libraries.</p>
-<p>Bei Unklarheiten oder sonstigen Fragen zur Aufgabenstellung:</p>
+<h3 id="N&#252;tzliche-Python-Module">N&#252;tzliche Python-Module<a class="anchor-link" href="#N&#252;tzliche-Python-Module">&#182;</a></h3><ul>
+<li>argparse</li>
+<li>pickle</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="argparse">argparse<a class="anchor-link" href="#argparse">&#182;</a></h3><p>Übernimmt das Parsen von Kommandozeilen-Argumenten.</p>
+<p>Beispiel: Programm soll folgende Argumente akzeptieren:</p>
 <ul>
-<li>zunächst in der <strong>FAQ-Sektion</strong> auf der Übungs-Website nachschauen, ob die Frage bereits gestellt wurde</li>
-<li>wenn nicht: Keine Zeit verlieren - fragen.</li>
+<li>"num", type: int</li>
+<li>optional: ("-f", "--flag"), type: boolean flag</li>
+<li>optional: ("-w", "--word"), type: str  </li>
 </ul>
-<p>Wenn man explizit <strong>Hilfe</strong> benötigt, gilt: Es ist bis einschließlich dem Mittwoch vor einer Sitzung eine Email an die genannte Adresse zu schicken. Dann werden etwaige Probleme direkt am Ende der Sitzung am Donnerstag in einem Breakout Room besprochen.</p>
-<h4 id="1.3-Bestehen">1.3 Bestehen<a class="anchor-link" href="#1.3-Bestehen">&#182;</a></h4><p>Die Aufgabe gilt als bestanden, wenn die <strong>Basisanforderung</strong> (Abschnitt 1.4) erfüllt ist, und mindestens <strong>3</strong> der <strong>5</strong> <strong>Erweiterungen</strong> (Abschnitt 1.5) erfolgreich implementiert sind. Die Abgabeform ist in Abschnitt 2 angegeben.</p>
-<p><strong>Hinweis</strong>: Das Programm wird bei der Evaluierung nur mit gültigen Daten aufgerufen. Es ist also nicht notwendig, fehlerhafte Nutzereingaben im Code aufwendig abzufangen. Allerdings muss das Programm dafür ausreichend dokumentiert sein, siehe Abschnitt 2.</p>
-<h4 id="1.4-Basisanforderung">1.4 Basisanforderung<a class="anchor-link" href="#1.4-Basisanforderung">&#182;</a></h4><ul>
-<li>Implementiere den Algorithmus zum Erstellen eines Minimalen Lexikonautomaten nach Daciuk, wie er in der Vorlesung besprochen wurde und in der Hausaufgabe zu Sitzung 4 bereits gefordert war (<a href="https://www.cis.uni-muenchen.de/people/Schulz/pw/StoyanLexAutomat.pdf">Paper, Seite 8f.</a>).</li>
-<li>Schreibe ein Programm, das aus einer Datei eine Wortliste einliest und daraus einen Lexikonautomaten erstellt. Zusätzlich soll das Programm dem Nutzer über die Kommandozeile die Eingabe von Wörtern ermöglichen und dann ausgeben, ob das Wort Teil der Sprache des Automaten ist. Das Programm soll sich regulär beenden, wenn der Nutzer das leere Wort, d.h. den leeren String eingibt. </li>
-</ul>
-<h4 id="1.5-Erweiterungen">1.5 Erweiterungen<a class="anchor-link" href="#1.5-Erweiterungen">&#182;</a></h4><p>Folgende Erweiterungen für die Basisprogramm sind möglich. Es sollen mindestens 3 von 5 möglichen Erweiterungen umgesetzt werden.</p>
-<ul>
-<li><strong>Sprache des Automaten</strong>: Erweitere das Programm so, dass der Nutzer sich die Sprache des Automaten ausgeben lassen kann. Dabei soll der Automat <em>einmal</em> iterativ oder rekursiv durchlaufen werden, wobei nur diejenigen Wörter generiert werden dürfen, die Teil der Sprache des Automaten sind.</li>
-<li><strong>Perfect Hashing</strong>: Erweitere das Programm so, dass der Nutzer ein Wort und eine dazugehörige Meta-Information als String eingeben kann, welche dann mithilfe von Perfect Hashing in einer Hash-Tabelle gespeichert wird. Auf die gleiche Weise soll der Nutzer gespeicherte Meta-Informationen zu einem Wort abrufen können.</li>
-<li><strong>Grafische Darstellung</strong>: Das Programm soll die Option bieten, den Automaten als Grafik (graphviz) anzuzeigen.</li>
-<li><strong>Speichern und Laden</strong>: Der Automat soll in einer Datei abgespeichert und aus einer solchen Datei wieder geladen werden können. Es soll dann beim Starten des Programmes ausgewählt werden können, ob eine Datei mit einer Wortliste oder eine Datei mit einem abgespeicherten Automaten verwendet wird, um den Automaten zu konstruieren.</li>
-<li><strong>Tarjan-Tabelle</strong>: Es soll eine Tarjan-Tabelle erstellt werden können, die anschließend in einer Datei gespeichert und auch wieder geladen werden kann. Damit ist auch <strong>Speichern und Laden</strong> erfüllt.</li>
-</ul>
-<p>Die <strong>Perfect-Hashing</strong>-Labels und die <strong>Tarjan-Tabelle</strong> können sowohl parallel zum Daciuk-Algorithmus also auch mit einem bereits erstellten Automaten berechnet/konstruiert werden.</p>
-<blockquote><p><strong>Hinweis</strong>: Es bietet sich an, die verschiedenen Nutzereingaben über eine Art 'Hauptmenü' abzufragen, in dem der Nutzer die verschiedenen Programmfunktionen aufrufen kann. Nutzereingaben können einfach über die <code>input(prompt=)</code>-Funktion abgefragt werden. Beispiel:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Basisvariante:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sys</span> <span class="kn">import</span> <span class="n">argv</span>
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span>
+    <span class="c1"># Ab hier: Viel Spaß.</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Besser und einfacher:</p>
+<blockquote><p>Erinnerung Programmaufruf:</p>
+<div class="highlight"><pre><span></span>python3 myprogram.py num <span class="o">[</span>-f<span class="o">]</span> <span class="o">[</span>-w WORD<span class="o">]</span>
+</pre></div>
 </blockquote>
 
-<pre><code>Was möchtest du tun?
-  (1) Wort abfragen
-  (2) Automaten zeichnen
-  (3) Sprache ausgeben
-Bitte eingeben &gt;&gt;&gt; _</code></pre>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">argparse</span> <span class="kn">import</span> <span class="n">ArgumentParser</span>
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="n">parser</span> <span class="o">=</span> <span class="n">ArgumentParser</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s2">&quot;A simple program.&quot;</span><span class="p">)</span>
+    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&quot;num&quot;</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="nb">int</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Integer to do sth with. default=10&quot;</span><span class="p">)</span>
+    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&quot;-f&quot;</span><span class="p">,</span> <span class="s2">&quot;--flag&quot;</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s2">&quot;store_true&quot;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Some flag&quot;</span><span class="p">)</span>
+    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&quot;-w&quot;</span><span class="p">,</span> <span class="s2">&quot;--word&quot;</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="nb">str</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Some word&quot;</span><span class="p">)</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">parser</span><span class="o">.</span><span class="n">parse_args</span><span class="p">()</span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Ein Vorteil: argparse erstellt automatisch eine Hilfe-Funktion.</p>
 
 </div>
 </div>
@@ -13132,20 +13180,104 @@ Bitte eingeben &gt;&gt;&gt; _</code></pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="2.-Abgabeform">2. Abgabeform<a class="anchor-link" href="#2.-Abgabeform">&#182;</a></h3><ul>
-<li>Das Projekt ist bis einschließlich <strong>20.01.2021</strong> an till.amelung@campus.lmu.de abzugeben</li>
-<li>Das Projekt ist in Form von einer oder mehrerer .py-Datei(en) abzugeben, als <strong>.zip</strong> verpackt</li>
-<li>Der Abgabe ist eine <strong>README</strong>-Datei im txt.- oder .md-Format beizufügen, in der<ul>
-<li>der Programmaufruf mit allen möglichen Kommandozeilenargumenten erklärt ist</li>
-<li>beschrieben ist, welche Erweiterungen implementiert worden sind</li>
-<li>gegebenenfalls beschrieben ist, wie die umgesetzten Erweiterungen aufgerufen werden</li>
-<li>kurzum: dem Nutzer alle notwendigen Informationen zu Verfügung gestellt werden, um das Programm zu verwenden, ohne in den Source Code schauen zu müssen</li>
-</ul>
-</li>
+<p>Beispielprogramm von eben:</p>
+
+<pre><code>❯ python3 simple_program.py -h
+usage: test.py [-h] [-f] [-w WORD] num
+
+A simple program.
+
+positional arguments:
+  num                   Integer to do sth with. default=10
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -f, --flag            Some flag
+  -w WORD, --word WORD  Some word</code></pre>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">argparse</span> <span class="kn">import</span> <span class="n">ArgumentParser</span>
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="n">parser</span> <span class="o">=</span> <span class="n">ArgumentParser</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s2">&quot;A simple program.&quot;</span><span class="p">)</span>
+    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&quot;num&quot;</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="nb">int</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Integer to do sth with. default=10&quot;</span><span class="p">)</span>
+    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&quot;-f&quot;</span><span class="p">,</span> <span class="s2">&quot;--flag&quot;</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s2">&quot;store_true&quot;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Some flag&quot;</span><span class="p">)</span>
+    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&quot;-w&quot;</span><span class="p">,</span> <span class="s2">&quot;--word&quot;</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="nb">str</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Some word&quot;</span><span class="p">)</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">parser</span><span class="o">.</span><span class="n">parse_args</span><span class="p">()</span>
+    <span class="n">args</span><span class="o">.</span><span class="n">w</span>
+    <span class="n">args</span><span class="o">.</span><span class="n">word</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Kurzer Überblick der Features:</p>
+<ul>
+<li>Typisierung der Argumente</li>
+<li>Beschreibungstexte für das Programm und die Argumente</li>
+<li>automatische Hilfe-Funktion</li>
+<li>Neben positionalen Argumenten auch Optionen möglich (-/--)</li>
+<li>Optionen können als 'required' gekennzeichnet werden</li>
+<li>Kurzschreibweise für Optionen möglich</li>
+<li>uvm.: <a href="https://docs.python.org/3/library/argparse.html">https://docs.python.org/3/library/argparse.html</a></li>
 </ul>
 
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="pickle">pickle<a class="anchor-link" href="#pickle">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Ermöglicht komfortable (De-)Serialisierung von Python-Objekten (auch user-defined).<br>
+Speichert Daten als Bytestream --&gt; nicht als Textdatei lesbar (vs. JSON).</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pickle</span>
+
+<span class="n">some_list</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">]</span>
+<span class="n">some_dict</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;a&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s2">&quot;b&quot;</span><span class="p">:</span> <span class="mi">2</span><span class="p">}</span>
+
+<span class="c1"># speichern</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;data.pickle&quot;</span><span class="p">,</span> <span class="s2">&quot;wb&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">out_f</span><span class="p">:</span>
+    <span class="n">pickle</span><span class="o">.</span><span class="n">dump</span><span class="p">((</span><span class="n">some_list</span><span class="p">,</span> <span class="n">some_dict</span><span class="p">),</span> <span class="n">out_f</span><span class="p">)</span>
+
+<span class="c1"># &#39;data.pickle&#39; als Datei abgespeichert.</span>
+
+<span class="c1"># laden</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;data.pickle&quot;</span><span class="p">,</span> <span class="s2">&quot;rb&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">in_f</span><span class="p">:</span>
+    <span class="n">some_list</span><span class="p">,</span> <span class="n">some_dict</span> <span class="o">=</span> <span class="n">pickle</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">in_f</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
 </div>
     </div>
   </div>
