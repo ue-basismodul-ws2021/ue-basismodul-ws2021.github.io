@@ -38,5 +38,3 @@ Teilnehmer, die sich nachträglich zur Veranstaltung anmelden und einen Link zum
 | 26.11.2020 | [Default-Argumente / None-Objekt](https://htmlpreview.github.io/?https://github.com/ue-basismodul-ws2021/ue-basismodul-ws2021.github.io/blob/main/Sitzung_4.html) | [Daciuk-Implementierung](https://htmlpreview.github.io/?https://github.com/ue-basismodul-ws2021/ue-basismodul-ws2021.github.io/blob/main/Hausaufgabe_Daciuk.html) | [Daciuk Whiteboard](whiteboard_sitzung_4.png) |  
 | 03.12.2020 | | | [Hashing Whiteboard](whiteboard_sitzung_5.png) |  
 | 10.12.2020 | | [Daciuk-Tipps](daciuk.py) \ [Daciuk-Tipps OOP](daciuk_oop.py) | [Tarjan Tabellen Whiteboard](whiteboard_6.png) |
-
-[projekt_test]
