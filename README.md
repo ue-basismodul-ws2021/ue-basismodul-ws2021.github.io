@@ -27,7 +27,8 @@ Teilnehmer, die sich nachträglich zur Veranstaltung anmelden und einen Link zum
 
 ## Leistungsnachweis
 
-- Am Ende des Semesters ist ein [**Abschlussprojekt**](projekt.md) einzureichen. <br />
+- Am Ende des Semesters ist ein [**Abschlussprojekt**](projekt.md) einzureichen.
+- Abgabefrist: 20.01.2021 <br />
 <br />  
 
 | Date | slides | homework | materials |
