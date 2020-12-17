@@ -27,7 +27,7 @@ Teilnehmer, die sich nachträglich zur Veranstaltung anmelden und einen Link zum
 
 ## Leistungsnachweis
 
-- Am Ende des Semesters ist ein Abschlussprojekt (Programmieraufgabe) einzureichen. <br />
+- Am Ende des Semesters ist ein [**Abschlussprojekt**](projekt.md) einzureichen. <br />
 <br />  
 
 | Date | slides | homework | materials |
@@ -39,4 +39,4 @@ Teilnehmer, die sich nachträglich zur Veranstaltung anmelden und einen Link zum
 | 03.12.2020 | | | [Hashing Whiteboard](whiteboard_sitzung_5.png) |  
 | 10.12.2020 | | [Daciuk-Tipps](daciuk.py) \ [Daciuk-Tipps OOP](daciuk_oop.py) | [Tarjan Tabellen Whiteboard](whiteboard_6.png) |
 
-[projekt_test](projekt.md)
+[projekt_test]
