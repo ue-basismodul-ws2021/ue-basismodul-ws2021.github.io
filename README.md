@@ -2,10 +2,7 @@
 
 *Übung zum Computerlinguistik Masterkurs P1 "Basismodul Computerlinguistik"*
 
-<span class="float-left text-red tooltipped tooltipped-n" aria-label="Does not meet accessibility standards"><%= octicon("alert") %></span>
-<div class="text-red mb-2">
-  Extra-Sitzung am 22.12.2020, 12:15 - 13:45
-</div>
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Extra-Sitzung am 22.12.2020, 12:15 - 13:45
 
 ## Inhalt
 
