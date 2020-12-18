@@ -7,3 +7,5 @@
 [Test-Wortliste](wordlist.txt) (10.000 Wörter, UTF-8, sortiert)
 
 ## FAQ
+- *Ich würde das Projekt gerne zu zweit angehen, habe allerdings noch keinen Partner. Wie kann man das lösen?*  
+Ein Hinweis per E-Mail genügt, dann wird der Kontakt zu dem/der nächsten hergestellt, der/die sich ebenfalls noch einen Partner wünscht.
