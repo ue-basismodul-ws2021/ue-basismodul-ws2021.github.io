@@ -2,8 +2,6 @@
 
 *Übung zum Computerlinguistik Masterkurs P1 "Basismodul Computerlinguistik"*
 
-![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Extra-Sitzung am 22.12.2020, 12:15 - 13:45
-
 ## Inhalt
 
 Auf dieser Seite finden sich nach Sitzung sortiert die Materialien und Foliensätze der Übung.
@@ -42,3 +40,4 @@ Teilnehmer, die sich nachträglich zur Veranstaltung anmelden und einen Link zum
 | 03.12.2020 | | | [Hashing Whiteboard](whiteboard_sitzung_5.png) |  
 | 10.12.2020 | | [Daciuk-Tipps](daciuk.py) \ [Daciuk-Tipps OOP](daciuk_oop.py) | [Tarjan Tabellen Whiteboard](whiteboard_6.png) |
 | 17.12.2020 | [argparse + pickle](https://htmlpreview.github.io/?https://github.com/ue-basismodul-ws2021/ue-basismodul-ws2021.github.io/blob/main/argparse_pickle.html) | | [Levenshteinabstand Whiteboard](whiteboard_7.png) |
+| 22.12.2020 | | | [Hinzufügen/Loschen von Wörtern](whiteboard_8.png) |
