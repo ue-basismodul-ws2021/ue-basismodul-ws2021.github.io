@@ -13,3 +13,5 @@ Ein Hinweis per E-Mail genügt, dann wird der Kontakt zu dem/der nächsten herge
 Das ist im Algorithmus auch so vorgesehen. Ob der Startzustand im Register liegt oder nicht, ist unerheblich, da er immer eine eigene Äquivalenzklasse bildet und nicht weiter minimiert werden kann.
 - ***Perfect Hashing***: *Wie soll das Programm reagieren, wenn der Nutzer eine Meta-Information zu einem Wort speichern will, dass nicht Teil der Sprache des Automaten ist?*  
 Dann soll genau das ausgegeben werden, nämlich dass der Lookup fehlgeschlagen ist.
+- ***Kombination Perfect Hashing/Speichern und Laden***: *Muss die Hash-Tabelle mit den Meta-Informationen ebenfalls abgespeichert werden?*  
+Nein, die Hash-Tabelle muss für das Bestehen der Aufgabe nicht abgespeichert werden. Dann muss sie aber neu erstellt werden, wenn man das MinDict aus einer Datei lädt.
