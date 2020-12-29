@@ -16,4 +16,4 @@ Dann soll genau das ausgegeben werden, nämlich dass der Lookup fehlgeschlagen i
 - ***Kombination Perfect Hashing/Speichern und Laden***: *Muss die Hash-Tabelle mit den Meta-Informationen ebenfalls abgespeichert werden?*  
 Nein, die Hash-Tabelle muss für das Bestehen der Aufgabe nicht abgespeichert werden. Dann muss sie aber ggfs. neu erstellt werden, wenn man das MinDict aus einer Datei lädt.
 - ***argparse***: *Ich frage in meinem Programm alle Nutzereingaben während der Laufzeit ab. Ist es trotzdem Pflicht, argparse zu verwenden?*  
-Wenn es keine Kommandozeilenargumente gibt, die geparsed werden müssen, kann selbstverständlich auf argparse verzichtet werden.
+Wenn es keine Kommandozeilenargumente gibt, die geparsed werden müssen, kann selbstverständlich auf argparse verzichtet werden. Die Verwendung des ArgumentParsers ist ohnehin kein Teil der Anforderung, sondern vielmehr eine Hilfestellung.
