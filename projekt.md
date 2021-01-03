@@ -11,6 +11,8 @@
 Ein Hinweis per E-Mail genügt, dann wird der Kontakt zu dem/der nächsten hergestellt, der/die sich ebenfalls noch einen Partner wünscht.
 - ***Daciuk***: *Ich habe den Algorithmus exakt nachprogrammiert, aber der Startzustand ist am Ende nie Teil des Registers. Was mache ich falsch?*  
 Das ist im Algorithmus auch so vorgesehen. Ob der Startzustand im Register liegt oder nicht, ist unerheblich, da er immer eine eigene Äquivalenzklasse bildet und nicht weiter minimiert werden kann.
+- ***Ausgabe der Sprache des Automaten***: *Darf man auch einfach die ursprüngliche Wortliste benutzen, um alle Wörter auszugeben?*  
+Nein, nur der Automat selbst soll verwendet werden, um die Wörter zu generieren. Außerdem ist die langfristige Speicherung der Wortliste generell keine gute Idee, da wir den Automaten ja implementieren, um genau diesen Speicherplatzverbrauch zu reduzieren.
 - ***Perfect Hashing***: *Wie soll das Programm reagieren, wenn der Nutzer eine Meta-Information zu einem Wort speichern will, das nicht Teil der Sprache des Automaten ist?*  
 Dann soll genau das ausgegeben werden, nämlich dass der Lookup fehlgeschlagen ist.
 - ***Kombination Perfect Hashing/Speichern und Laden***: *Muss die Hash-Tabelle mit den Meta-Informationen ebenfalls abgespeichert werden?*  
