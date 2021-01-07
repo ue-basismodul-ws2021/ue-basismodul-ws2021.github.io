@@ -28,7 +28,8 @@ Teilnehmer, die sich nachträglich zur Veranstaltung anmelden und einen Link zum
 ## Leistungsnachweis
 
 - Am Ende des Semesters ist ein [**Abschlussprojekt**](projekt.md) einzureichen.
-- Abgabefrist: 20.01.2021 <br />
+- Abgabefrist: 20.01.2021 
+- Tutorials: [Grundlagen (unter 'Learn the Basics')](https://www.learnpython.org/), [Einführung in OOP](https://realpython.com/python3-object-oriented-programming/) <br />
 <br />  
 
 | Date | slides | homework | materials |
