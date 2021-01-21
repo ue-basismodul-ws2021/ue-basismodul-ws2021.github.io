@@ -43,3 +43,4 @@ Teilnehmer, die sich nachträglich zur Veranstaltung anmelden und einen Link zum
 | 17.12.2020 | [argparse + pickle](https://htmlpreview.github.io/?https://github.com/ue-basismodul-ws2021/ue-basismodul-ws2021.github.io/blob/main/argparse_pickle.html) | | [Levenshteinabstand Whiteboard](whiteboard_7.png) |
 | 22.12.2020 | | | [Hinzufügen/Löschen von Wörtern](whiteboard_8.png) |
 | 14.01.2021 | | | [Universeller Levenshteinautomat](sitzung9_whiteboard.png) \ [Original-Paper](https://www.cis.uni-muenchen.de/people/Schulz/Pub/fastapproxsearch.pdf) |
+| 21.01.2021 | | | [Universeller Levenshteinautomat 2](whiteboard_10.png) \ [Themenschwerpunkte Klausur](themen_klausur.txt)
