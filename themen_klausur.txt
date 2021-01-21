@@ -1,0 +1,27 @@
+Basiswissen:
+- Sprachen -> Automaten (aus Sprache minDEA konstruieren)
+- Determinisierung NDEA (Potenzmengenkonstruktion)
+- Nerode-Konstruktion --> "kleine" Beispiele
+- DEA-Minimierung
+
+MinDEA:
+- Daciuk
+- Perfect Hashing (sowohl parallel zum Daciuk-Algorithmus, als auch am Ende)
+- Tarjan Tabellen (sowohl parallel zum Daciuk-Algorithmus, als auch am Ende) 
+- Nachträgliches Hinzufügen/Löschen von Wörtern
+
+Universelle Levenshtein-Automaten:
+- Generelles Verständnis
+- Notation
+- Nachfolgezustände berechnen
+- Für Schranke k aus gegebenem Wort Bitvektoren berechnen
+--> an "Linkserweiterung" und "Antennenbit" denken
+- Forward/Backward-Methode
+
+Textkorrektur:
+- Verständnis
+
+Hinweise:
+Wenn nicht explizit gefordert: partiellen Automaten entwerfen
+Lösung lieber doppelt checken (bzw. wenn alles fertig ist)
+Können auch Textaufgaben drankommen
