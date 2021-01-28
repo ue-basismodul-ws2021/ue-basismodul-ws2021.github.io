@@ -44,3 +44,4 @@ Teilnehmer, die sich nachträglich zur Veranstaltung anmelden und einen Link zum
 | 22.12.2020 | | | [Hinzufügen/Löschen von Wörtern](whiteboard_8.png) |
 | 14.01.2021 | | | [Universeller Levenshteinautomat](sitzung9_whiteboard.png) \ [Original-Paper](https://www.cis.uni-muenchen.de/people/Schulz/Pub/fastapproxsearch.pdf) |
 | 21.01.2021 | | | [Universeller Levenshteinautomat 2](whiteboard_10.png) \ [Themenschwerpunkte Klausur](themen_klausur.txt) |
+| 28.01.2021 | | | [Wiederholung](whiteboard_11.png) |
