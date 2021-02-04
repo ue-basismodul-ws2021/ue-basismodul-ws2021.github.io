@@ -45,3 +45,4 @@ Teilnehmer, die sich nachträglich zur Veranstaltung anmelden und einen Link zum
 | 14.01.2021 | | | [Universeller Levenshteinautomat](sitzung9_whiteboard.png) \ [Original-Paper](https://www.cis.uni-muenchen.de/people/Schulz/Pub/fastapproxsearch.pdf) |
 | 21.01.2021 | | | [Universeller Levenshteinautomat 2](whiteboard_10.png) \ [Themenschwerpunkte Klausur](themen_klausur.txt) |
 | 28.01.2021 | | | [Wiederholung](whiteboard_11.png) |
+| 04.02.2021 | | | [Wiederholung](whiteboard_12.png) \ [Universeller Levenshteinautomat (chold/hchi)](chold_hchi.png) \ [Lösung Aufgabe 1.2](k_relation.png) |
